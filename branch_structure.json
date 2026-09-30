@@ -1,0 +1,24 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "feat/issue-377-implement-advanced-alerting-with-anomaly",
+    "feat/issue-390-build-cli-tool-for-event-proof-generation-and",
+    "fix/issue-379-build-advanced-event-explorer-ui-with-filtering",
+    "master",
+    "origin"
+  ],
+  "parent": {
+    "feat/issue-377-implement-advanced-alerting-with-anomaly": "master",
+    "feat/issue-390-build-cli-tool-for-event-proof-generation-and": "master",
+    "fix/issue-379-build-advanced-event-explorer-ui-with-filtering": "master",
+    "master": null,
+    "origin": "master"
+  },
+  "order": [
+    "master",
+    "feat/issue-377-implement-advanced-alerting-with-anomaly",
+    "feat/issue-390-build-cli-tool-for-event-proof-generation-and",
+    "fix/issue-379-build-advanced-event-explorer-ui-with-filtering",
+    "origin"
+  ]
+}
