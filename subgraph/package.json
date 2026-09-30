@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "codegen": "graph codegen --subgraph subgraph.yaml",
-    "build": "graph build --subgraph subgraph.yaml",
+    "build": "node init && graph build --subgraph subgraph.yaml",
     "deploy": "graph deploy --subgraph subgraph.yaml",
     "deploy:local": "graph deploy --subgraph subgraph.yaml --node http://localhost:8020 --ip-fs http://localhost:5001",
     "create:local": "graph create --node http://localhost:8020 ${SUBGRAPH_NAME:-audit-ledger}",
